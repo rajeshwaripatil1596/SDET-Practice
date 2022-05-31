@@ -44,7 +44,6 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
-						<suiteXmlFile>testng.batch.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
@@ -64,7 +63,6 @@
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjweaver</artifactId>
 			<version>1.8.10</version>
-			<scope>runtime</scope>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
